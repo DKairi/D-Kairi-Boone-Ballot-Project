@@ -16,6 +16,8 @@
 		184E9D9929EA2DBD000597DF /* D_Kairi_Boone_Ballot_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9D9829EA2DBD000597DF /* D_Kairi_Boone_Ballot_ProjectTests.swift */; };
 		184E9DA329EA2DBE000597DF /* D_Kairi_Boone_Ballot_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9DA229EA2DBE000597DF /* D_Kairi_Boone_Ballot_ProjectUITests.swift */; };
 		184E9DA529EA2DBE000597DF /* D_Kairi_Boone_Ballot_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9DA429EA2DBE000597DF /* D_Kairi_Boone_Ballot_ProjectUITestsLaunchTests.swift */; };
+		184E9DB629EB0CD4000597DF /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9DB529EB0CD4000597DF /* VotingViewController.swift */; };
+		184E9DB829EB0D59000597DF /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9DB729EB0D59000597DF /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		184E9D9E29EA2DBE000597DF /* D'Kairi Boone Ballot ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "D'Kairi Boone Ballot ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184E9DA229EA2DBE000597DF /* D_Kairi_Boone_Ballot_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D_Kairi_Boone_Ballot_ProjectUITests.swift; sourceTree = "<group>"; };
 		184E9DA429EA2DBE000597DF /* D_Kairi_Boone_Ballot_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D_Kairi_Boone_Ballot_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		184E9DB529EB0CD4000597DF /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		184E9DB729EB0D59000597DF /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				184E9D8329EA2DBD000597DF /* SceneDelegate.swift */,
 				184E9D8529EA2DBD000597DF /* ViewController.swift */,
 				184E9D8729EA2DBD000597DF /* Main.storyboard */,
+				184E9DB729EB0D59000597DF /* TBViewController.swift */,
+				184E9DB529EB0CD4000597DF /* VotingViewController.swift */,
 				184E9D8A29EA2DBD000597DF /* Assets.xcassets */,
 				184E9D8C29EA2DBD000597DF /* LaunchScreen.storyboard */,
 				184E9D8F29EA2DBD000597DF /* Info.plist */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184E9DB829EB0D59000597DF /* TBViewController.swift in Sources */,
 				184E9D8629EA2DBD000597DF /* ViewController.swift in Sources */,
 				184E9D8229EA2DBD000597DF /* AppDelegate.swift in Sources */,
 				184E9D8429EA2DBD000597DF /* SceneDelegate.swift in Sources */,
+				184E9DB629EB0CD4000597DF /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
